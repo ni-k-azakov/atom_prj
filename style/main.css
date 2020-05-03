@@ -1,0 +1,269 @@
+* {
+        font-family: 'Montserrat', sans-serif;
+}
+
+body, html {
+        height: 100%;
+        min-width: 1000px;
+        margin: 0;
+        padding: 0;
+        background-color: #EC2D01;
+        background-image: url(../img/cross.png);
+        background-attachment: fixed;
+        scroll-behavior: smooth;
+}
+
+a {
+        text-decoration: none;
+        color: inherit;
+}
+
+
+/* -------HEADER-------*/
+.black_square {
+        float: left;
+        height: 70px;
+        width: 100%;
+}
+
+ul.nav {
+        padding: 0;
+        height: 70px;
+        margin-top: 0;
+        font-size: 20px;
+        width: 1000px;
+        list-style-type: none;
+}
+
+ul.nav li {
+        /* margin-top: 0; */
+        /* position: relative; */
+        color: black;
+        float: left;
+        padding: 0;
+        /* padding-top: 20px; */
+        line-height: 20px;
+        width: 168px;
+        height: 67px;
+        text-align: center;
+}
+
+ul.nav li:hover {
+        background-color: rgba(185, 150, 150, 0.9);
+        cursor: pointer;
+        border-bottom-style: solid;
+        border-color: #FCDD76;
+}
+
+.nav a {
+        /* top: 50%; */
+        /* position: absolute; */
+        display: block;
+        height: 100%;
+        width: 100%;
+}
+
+.header_div {
+        background-color: rgba(253, 244, 227, 1);
+        width: 100%;
+        height: 70px;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.heading {
+        width: 840px;
+        /* display: flex; */
+        height: 70px;
+        font-size: 80px;
+        padding-top: 0px;
+        top: 0;
+        /* position: fixed; */
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.logo {
+        float: left;
+        padding-left: 40px;
+        width: 50px;
+        height: 50px;
+	top: 20px;
+        align-items: center;
+        font-size: 0px;
+        /* overflow:hidden; */
+}
+/*--------------------*/
+
+
+/* -----------MAIN_LOGO_DIV---------- */
+.contacts {
+        line-height: 30px;
+        align-items: center;
+        float: right;
+        padding: 20px;
+        height: 60px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        font-size: 20px;
+        /* text-align: center; */
+}
+
+.main_div {
+        /* background-color: rgba(100, 0, 0, 0.5); */
+        height: 350px;
+        /* min-height: 700px; */
+        width: 100%;
+
+        float: none;
+        overflow: auto;
+}
+
+.main_name {
+        text-align: center;
+        font-size: 100px;
+        color: white;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.additional {
+        font-size: 40px;
+        font-family: 'Poiret One', cursive;
+        width: 720px;
+        color: white;
+        text-align: center;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+}
+/* -------------------- */
+
+
+/* ----CHOISE_BLOCK---- */
+ul.choise {
+        margin: 0;
+        list-style-type: none;
+        font-size: 40px;
+        text-align: center;
+}
+
+ul.choise li {
+        padding-top: 25px;
+        height: 80px;
+        background-color: white;
+        border: solid;
+        border-collapse: collapse;
+        border-color: white;
+}
+
+ul.choise li:hover {
+        padding-top: 25px;
+        height: 80px;
+        background-color: white;
+        border-right: solid;
+        border-right-color: #EC2D01;
+        border-right-width: 5px;
+        padding-left: 2px;
+}
+
+ul.choise li:enabled {
+        padding-top: 25px;
+        height: 80px;
+        background-color: white;
+        border: solid;
+        border-right-color: #EC2D01;
+        border-right-width: 5px;
+}
+
+.choise a {
+        display: block;
+        height: 100%;
+}
+
+.car_chooser {
+        float: left;
+        height: 555px;
+        width: 100%;
+        background-color: #FDF4E3;
+        /* border-bottom-color: #FCDD76; */
+        /* border-bottom: solid; */
+}
+
+.height_choice {
+        margin-left: 10%;
+        float: left;
+        width: 30%;
+}
+
+.auto_info {
+        float: left;
+        width: 50%;
+        background-color: rgb(220, 220, 220);
+        height: 555px;
+}
+
+.info_pic {
+        float: right;
+        margin-top: 123px;
+}
+/* -------------------- */
+
+
+/*------COMPANY_INFO-------*/
+.comp_info {
+        /* height: 2000px; */
+        background-color: white;
+        /* background-image: url(../img/cross.png); */
+}
+
+.zag {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 869px;
+        color: #EC2D01;
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        font-size: 60px;
+}
+
+.obertka {
+        font-size: 20px;
+        width: 70%;
+        margin-left: 15%;
+}
+
+.description {
+        float: left;
+        width: 40%;
+}
+
+.profile {
+        margin-left: 10%;
+        width: 50%;
+        float: left;
+}
+/*-------------------------*/
+
+/*-----------MAP-----------*/
+.map {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+}
+/*-------------------------*/
+
+/*-------price_list--------*/
+.prices {
+        float: left;
+        width: 100%;
+        height: 1000px;
+        background-color: #FDF4E3;
+        background-image: url(../img/cross_2.png);
+}
+/*-------------------------*/
