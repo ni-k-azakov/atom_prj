@@ -14,7 +14,7 @@ function SendMail(sRecipientMail, sSubject, sMsgBody)
             Item("http://schemas.microsoft.com/cdo/configuration/sendusing") = 2; 
             Item("http://schemas.microsoft.com/cdo/configuration/smtpauthenticate") = 1;  
             Item("http://schemas.microsoft.com/cdo/configuration/sendusername") = sRecipientMail;  
-            Item("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "773111909"; 
+            Item("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "****"; 
         }   
         refConf.Fields.Update();   
    
